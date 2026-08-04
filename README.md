@@ -1,4 +1,4 @@
-# Find Your Circle
+## Find Your Circle
 **Live demo:** [add your deployed URL]
 **Repo:** [add your repo URL]
 
@@ -7,17 +7,9 @@ Lean In Connect's promise is on the first screen of onboarding: women in Circles
 
 Meanwhile the directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit her goals. For example, the screenshot used to illustrate step 2 leads with a Circle that has one member. So the platform delivers its value proposition everywhere except the step that unlocks it. That's the gap I built for.
 
-## What I built
-
-Three states, replacing step 2 in place:
-
-1. **Intake** — three questions: what she's working on, where she is in her
-   career, and how she wants to meet. Career stage is pre-filled from the job
-   title her profile already collected in step 1, so the question arrives
-   answered rather than blank.
-2. **Matches** — a short ranked list instead of a directory, each Circle
-   showing why it matched, whether it's open, and when it next meets.
-3. **Request sent** — what happens next, drawn from that Circle's real data.
+### What I built
+1. **Intake** questions: What the onboardee is working on, where they are in their career, and how they would like to meet. Career stage is pre-filled from the job title her profile already collected in step 1. 
+2. **Matches**: A short ranked list instead of a directory catered towards the user's input preferences.
 
 She finishes onboarding already matched, with a request in flight, instead
 of with a to-do item. Step 2 marks itself complete, which means the final
