@@ -11,26 +11,15 @@ Meanwhile the directory itself is thousands of Circles across 183 countries, man
 1. **Intake** questions: What the onboardee is working on, where they are in their career, and how they would like to meet. Career stage is pre-filled from the job title her profile already collected in step 1. 
 2. **Matches**: A short ranked list instead of a directory catered towards the user's input preferences.
 
-She finishes onboarding already matched, with a request in flight, instead
-of with a to-do item. Step 2 marks itself complete, which means the final
-onboarding checklist can drop "Find a Circle to join" entirely.
+The user finishes onboarding already matched, with a request in flight, instead of with a to-do item. Step 2 marks itself complete, which means the final onboarding checklist can drop "Find a Circle to join" entirely.
 
-## Where I focused, and why
+### Where I focused, and why
+I went deeper on the front end and on the product thinking behind the matching, because that's where my strengths lie and where I think the
+biggest gap in the current experience is. The back end is real but deliberately small and enough to prove the architecture is sound.
 
-I went deeper on the front end and on the product thinking behind the
-matching, because that's where my strengths are and where I think the
-biggest gap in the current experience is. The back end is real but
-deliberately small — enough to prove the architecture is sound, not enough
-to be the centerpiece.
-
-## What's real vs. mocked
-
+### What's real vs. mocked
 **Real:**
-- Circles live in a Postgres table (Supabase), not in the bundle.
-- Matching runs server-side. The client sends her answers and receives a
-  ranked list with reasons; it never sees the scoring weights.
-- Join requests persist. Refresh the page and her pending requests are still
-  there.
+Circles live in a Postgres table (Supabase), not in the bundle. Matching runs server-side. The client sends their answers and receives a ranked list; it never sees the scoring weights. Join requests persist - Refresh the page and their pending requests are still there.
 
 **Mocked:**
 - The member profile is hardcoded rather than session-backed. Auth was
@@ -123,10 +112,6 @@ renders exactly those. Nothing is ranked without an explanation.
   leaders.
 - **Accessibility pass.** Keyboard and screen reader paths are handled but
   not tested properly.
-
-## Stack
-
-[Fill in: e.g. Next.js, TypeScript, Supabase (Postgres), deployed on Vercel]
 
 ## A note on scope
 
