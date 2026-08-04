@@ -18,7 +18,7 @@ The user finishes onboarding already matched, with a request in flight, instead 
 I went deeper on the front end and on the product thinking behind the matching, because that's where my strengths lie and where I think the
 biggest gap in the current experience is.
 
-###Technical Process
+#### Technical Process
 - Platform Audit, Competitive Analysis, Design exploration ([Figma Working File](https://www.figma.com/design/2DYXJjvxQI9qN0rg2Rr0Oe/Lean-In?node-id=0-1&t=3SkulXIediH1jLNI-1)), Building in Claude Code
 - Maintained branding and onbarding structure, changed typography and tightened layout 
 
