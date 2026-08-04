@@ -16,7 +16,7 @@ The user finishes onboarding already matched, with a request in flight, instead 
 
 ### Where I focused, and why
 I went deeper on the front end and on the product thinking behind the matching, because that's where my strengths lie and where I think the
-biggest gap in the current experience is. The back end is intentionally small but sufficient to prove the architecture is sound.
+biggest gap in the current experience is.
 
 ### What's Real vs. Mocked
 **Real:**
