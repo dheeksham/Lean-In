@@ -40,13 +40,13 @@ Each Circle is scored against her three answers:
 
 **Momentum** is members divided by months since the Circle started, both numbers already public. A Circle started two months ago with 50 members is obviously alive. One started eight months ago with 1 member is obviously not, and it shouldn't outrank a thriving Circle just because its topic matches. New Circles aren't punished for being new: a Circle started last month with 2 members scores as steady, not stalled. The ones that sink are the ones that have had time and haven't grown.
 
-## Tradeoffs
+### Tradeoffs
 
 - **Three questions** A longer intake would match better and convert worse. Pre-filling career stage from the existing profile buys accuracy without adding a question.
 - **In-person is filtered by city, not ranked down by distance.** An in-person Circle in another city isn't a worse match, it's not a match.
 - **Struggling Circles still appear.** Hiding them would be cleaner, but a new Circle looking for founding members is a real opportunity and the user needs to know that's what she's choosing - which the member count and start date signify.
 
-## What I'd build next
+### What I'd build next
 
 - **Auth**, so the profile is real and requests belong to an account.
 - **The leader's side.** Requests currently go into a table with nobody to review them. The obvious next piece is a leader inbox with accept/decline.
