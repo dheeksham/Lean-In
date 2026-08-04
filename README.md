@@ -12,11 +12,15 @@ Lean In Connect's promise is on the 1st onboarding screen: Women in Circles are 
 1. **Intake** questions: What the onboardee is working on, where they are in their career, and how they would like to meet.
 2. **Matches**: A short ranked list instead of a directory catered towards the user's input preferences.
 
-The user finishes onboarding already matched, with a request in flight, instead of with a to-do item. Step 2 marks itself complete, which means the final onboarding checklist can drop "Find a Circle to join" entirely.
+The user finishes onboarding already matched, with a request in flight, instead of with a to-do item and Step 2 marks itself complete.
 
 ### Where I focused, and why
 I went deeper on the front end and on the product thinking behind the matching, because that's where my strengths lie and where I think the
 biggest gap in the current experience is.
+
+###Technical Process
+- Platform Audit, Competitive Analysis, Design exploration ([Figma Working File](https://www.figma.com/design/2DYXJjvxQI9qN0rg2Rr0Oe/Lean-In?node-id=0-1&t=3SkulXIediH1jLNI-1)), Building in Claude Code
+- Maintained branding and onbarding structure, changed typography and tightened layout 
 
 ### What's Real vs. Mocked
 **Real:**
