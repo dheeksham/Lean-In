@@ -2,7 +2,7 @@
 **Live demo:** [add your deployed URL]
 **Repo:** [add your repo URL]
 
-## The problem I chose
+### The problem I chose
 Lean In Connect's promise is on the first screen of onboarding: women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one that matches what she's working on and that is active. The current product makes reaching that state difficult. Step 2 of member onboarding is titled "Find a Circle to join." It explains what Circles are, tells her to browse the directory and filter by topic or location, and shows a screenshot of that directory. The user can't do anything further on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
 
 Meanwhile the directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit her goals. For example, the screenshot used to illustrate step 2 leads with a Circle that has one member. So the platform delivers its value proposition everywhere except the step that unlocks it. That's the gap I built for.
