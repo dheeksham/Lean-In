@@ -1,6 +1,8 @@
 ## Find Your Circle
 *Live demo:* https://lean-in-eight.vercel.app/
+
 *Repo:* https://github.com/dheeksham/Lean-In
+
 *Stack:* Next.js, TypeScript, Supabase, deployed on Vercel.
 
 ### The problem I chose
