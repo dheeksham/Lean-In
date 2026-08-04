@@ -42,12 +42,12 @@ Each Circle is scored against her three answers:
 
 ### Tradeoffs
 
-- **Three questions** A longer intake would match better but make onboarding extensive.
+- **Three questions** A longer intake would match better but makes onboarding extensive.
 - **In-person is filtered by city, not ranked down by distance.** An in-person Circle in another city isn't a worse match, it's not a match.
 - **Struggling Circles still appear.** Hiding them would be cleaner, but a new Circle looking for founding members is a real opportunity and the user needs to know that's what she's choosing - which the member count and start date signify.
 
 ### What I'd build next
 
-- **Auth**, so the profile is real and requests belong to an account.
-- **The leader's side.** Requests currently go into a table with nobody to review them. The obvious next piece is a leader inbox with accept/decline.
+- **Auth:** so the profile is real and requests belong to an account.
+- **The Circle Leader's view:** A leader inbox with accept/decline for join requests.
 - **Learning from outcomes.** The weights are currently my own judgment of what is important. With real data on who joined and who was still showing up after three meetings, they should be fit to retention rather than guessed.
