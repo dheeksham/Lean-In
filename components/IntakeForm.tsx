@@ -12,7 +12,7 @@ export function IntakeForm({
 }: {
   goals: Goal[];
   onToggleGoal: (goal: Goal) => void;
-  stage: Stage;
+  stage: Stage | null;
   onStageChange: (stage: Stage) => void;
   format: MeetingFormat | null;
   onFormatChange: (format: MeetingFormat) => void;

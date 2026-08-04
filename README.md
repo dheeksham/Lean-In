@@ -36,9 +36,7 @@ that unlocks it. That's the gap I built for.
 Three states, replacing step 2 in place:
 
 1. **Intake** — three questions: what she's working on, where she is in her
-   career, and how she wants to meet. Career stage is pre-filled from the job
-   title her profile already collected in step 1, so the question arrives
-   answered rather than blank.
+   career, and how she wants to meet.
 2. **Matches** — a short ranked list instead of a directory, each Circle
    showing why it matched, whether it's open, and when it next meets.
 3. **Request sent** — what happens next, drawn from that Circle's real data.
@@ -128,8 +126,7 @@ renders exactly those. Nothing is ranked without an explanation.
 ## Tradeoffs
 
 - **Three questions, not ten.** A longer intake would match better and
-  convert worse. Pre-filling career stage from the existing profile buys
-  accuracy without adding a question.
+  convert worse.
 - **Hybrid counts partially for both formats.** It genuinely satisfies
   either preference, and it meaningfully widens results for the thinner
   combinations.

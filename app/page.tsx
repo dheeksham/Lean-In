@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { IntakeForm } from "@/components/IntakeForm";
 import { MatchesGrid } from "@/components/MatchesGrid";
 import { OnboardingShell } from "@/components/OnboardingShell";
-import { MEMBER } from "@/lib/member";
 import type {
   Goal,
   IntakeAnswers,
@@ -19,7 +18,7 @@ type Step = "intake" | "matches";
 export default function Home() {
   const [step, setStep] = useState<Step>("intake");
   const [goals, setGoals] = useState<Goal[]>([]);
-  const [stage, setStage] = useState<Stage>(MEMBER.careerStage);
+  const [stage, setStage] = useState<Stage | null>(null);
   const [format, setFormat] = useState<MeetingFormat | null>(null);
 
   const [matches, setMatches] = useState<MatchResult[]>([]);
@@ -49,7 +48,7 @@ export default function Home() {
   }
 
   async function handleShowMatches() {
-    if (!canContinue || !format) return;
+    if (!canContinue || !format || !stage) return;
     setLoadingMatches(true);
     setError(null);
     try {
