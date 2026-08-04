@@ -42,7 +42,7 @@ Each Circle is scored against her three answers:
 
 ### Tradeoffs
 
-- **Three questions** A longer intake would match better and convert worse.
+- **Three questions** A longer intake would match better but make onboarding extensive.
 - **In-person is filtered by city, not ranked down by distance.** An in-person Circle in another city isn't a worse match, it's not a match.
 - **Struggling Circles still appear.** Hiding them would be cleaner, but a new Circle looking for founding members is a real opportunity and the user needs to know that's what she's choosing - which the member count and start date signify.
 
