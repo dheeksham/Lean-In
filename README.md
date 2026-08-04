@@ -1,5 +1,7 @@
 ## Find Your Circle
-**Live demo:** https://lean-in-eight.vercel.app/
+*Live demo:* https://lean-in-eight.vercel.app/
+*Repo:* https://github.com/dheeksham/Lean-In
+*Stack:* Next.js, TypeScript, Supabase, deployed on Vercel.
 
 ### The problem I chose
 Lean In Connect's promise is on the first screen of onboarding: women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one that matches what she's working on and that is active. The current product makes reaching that state difficult. Step 2 of member onboarding is titled "Find a Circle to join." It explains what Circles are, tells her to browse the directory and filter by topic or location, and shows a screenshot of that directory. The user can't do anything further on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
