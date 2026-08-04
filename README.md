@@ -51,5 +51,4 @@ Each Circle is scored against her three answers:
 
 - **Auth**, so the profile is real and requests belong to an account.
 - **The leader's side.** Requests currently go into a table with nobody to review them. The obvious next piece is a leader inbox with accept/decline.
-- **Learning from outcomes.** Right now the weights are my judgment. With real data — who joined, who stayed past three meetings. The weights should be fit to retention rather than guessed.
-- **Accessibility pass.** Keyboard and screen reader paths are handled but not tested properly.
+- **Learning from outcomes.** The weights are currently my own judgment of what is important. With real data on who joined and who was still showing up after three meetings, they should be fit to retention rather than guessed.
