@@ -1,6 +1,5 @@
 ## Find Your Circle
 **Live demo:** [add your deployed URL]
-**Repo:** [add your repo URL]
 
 ### The problem I chose
 Lean In Connect's promise is on the first screen of onboarding: women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one that matches what she's working on and that is active. The current product makes reaching that state difficult. Step 2 of member onboarding is titled "Find a Circle to join." It explains what Circles are, tells her to browse the directory and filter by topic or location, and shows a screenshot of that directory. The user can't do anything further on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
@@ -43,35 +42,13 @@ Each Circle is scored against her three answers:
 
 ## Tradeoffs
 
-- **Three questions, not ten.** A longer intake would match better and
-  convert worse. Pre-filling career stage from the existing profile buys
-  accuracy without adding a question.
-- **Hybrid counts partially for both formats.** It genuinely satisfies
-  either preference, and it meaningfully widens results for the thinner
-  combinations.
-- **In-person is filtered by city, not ranked down by distance.** An
-  in-person Circle in another city isn't a worse match, it's not a match.
-- **Struggling Circles still appear.** Hiding them would be cleaner, but a
-  new Circle looking for founding members is a real opportunity — she just
-  needs to know that's what she's choosing, which the member count and start
-  date tell her.
-- **No new data is invented.** Everything shown on a card is either already
-  public on a Circle page or one of the two proposed fields.
+- **Three questions** A longer intake would match better and convert worse. Pre-filling career stage from the existing profile buys accuracy without adding a question.
+- **In-person is filtered by city, not ranked down by distance.** An in-person Circle in another city isn't a worse match, it's not a match.
+- **Struggling Circles still appear.** Hiding them would be cleaner, but a new Circle looking for founding members is a real opportunity and the user needs to know that's what she's choosing - which the member count and start date signify.
 
 ## What I'd build next
 
 - **Auth**, so the profile is real and requests belong to an account.
 - **The leader's side.** Requests currently go into a table with nobody to review them. The obvious next piece is a leader inbox with accept/decline.
-- **Learning from outcomes.** Right now the weights are my judgment. With real data — who joined, who stayed past three meetings — the weights should be fit to retention rather than guessed.
-- **The waitlist as a signal.** Repeated demand for a full Circle is the
-  clearest possible prompt to start a similar one, and Lean In needs more
-  leaders.
-- **Accessibility pass.** Keyboard and screen reader paths are handled but
-  not tested properly.
-
-## A note on scope
-
-This ran longer than the suggested three hours. Most of the extra time went
-into the seed data — making sure every combination of answers returns
-something sensible, and that the results include the struggling Circles the
-current directory hides, since that's the case the whole idea turns on.
+- **Learning from outcomes.** Right now the weights are my judgment. With real data — who joined, who stayed past three meetings. The weights should be fit to retention rather than guessed.
+- **Accessibility pass.** Keyboard and screen reader paths are handled but not tested properly.
