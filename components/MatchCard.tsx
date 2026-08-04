@@ -36,8 +36,8 @@ export function MatchCard({
   const image = imageForCircle(circle.id);
 
   return (
-    <div className="group relative overflow-hidden rounded-lg bg-white">
-      <div className="relative flex h-40 items-start justify-end overflow-hidden p-3">
+    <div className="group relative flex h-full flex-col overflow-hidden rounded-lg bg-white">
+      <div className="relative flex h-40 shrink-0 items-start justify-end overflow-hidden p-3">
         <Image
           src={image}
           alt=""
@@ -68,11 +68,11 @@ export function MatchCard({
         </button>
       </div>
 
-      <div className="p-5">
+      <div className="flex flex-1 flex-col p-5">
         <h3 className="font-heading text-xl">{circle.name}</h3>
         <p className="mt-2 text-lg text-zinc-700">{circle.blurb}</p>
 
-        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-lg text-zinc-600">
+        <div className="mt-auto flex flex-wrap gap-x-5 gap-y-1 pt-4 text-lg text-zinc-600">
           <span className="flex items-center gap-2">
             <FormatIcon format={circle.format} />
             {formatLabel(circle.format)}
