@@ -1,8 +1,5 @@
 # Find Your Circle
 
-A redesign of step 2 of Lean In Connect's member onboarding — the moment a
-new member is supposed to find a Circle to join.
-
 **Live demo:** [add your deployed URL]
 **Repo:** [add your repo URL]
 
