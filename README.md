@@ -23,7 +23,7 @@ biggest gap in the current experience is.
 Circles live in a Postgres table (Supabase), not in the bundle. Matching runs server-side. The client sends their answers and receives a ranked list; it never sees the scoring weights. Join requests persist - Refresh the page and their pending requests are still there.
 
 **Mocked:**
-The member profile is hardcoded rather than session-backed as I prioritized spending time on matching than on a login screen. In production, this reads from the session. Circle photos are placeholders. The seed data is 16 Circles I wrote, sized so every combination of answers returns at least two results. Two Circle fields don't exist yet, explanation below.
+The member profile is hardcoded rather than session-backed as I prioritized spending time on matching than on a login screen. In production, this reads from the session. Circle photos are placeholders and the seed data is 16 Circles I wrote, sized so every combination of answers returns at least two results. However, 2 Circle fields don't exist yet, explanation below.
 
 ### The data for matching isn't there yet
 Circle creation collects name, description, location, company affiliation, whether it's open to new members, and how it meets. There is no structure about what a Circle is *for* or who it's for. That's why the directory can be browsed but not matched. Filtering by "topic" means searching description text, which is why a user ends up guessing. Therefore, this prototype proposes two new fields at Circle creation: Focus and Stage.
