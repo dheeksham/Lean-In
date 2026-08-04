@@ -36,7 +36,7 @@ Each Circle is scored against her three answers:
 |---|---|---|
 | Goal overlap | +10 each | The strongest predictor of fit |
 | Momentum | +8 / +3 / −6 | A Circle that hasn't grown can't deliver the outcome |
-| Format match | +5, or +2 for hybrid | Hybrid genuinely satisfies either preference |
+| Format match | +5, or +2 for hybrid | Hybrid satisfies either preference |
 
 **Momentum** is members divided by months since the Circle started, both numbers already public. A Circle started two months ago with 50 members is obviously alive. One started eight months ago with 1 member is obviously not, and it shouldn't outrank a thriving Circle just because its topic matches. New Circles aren't punished for being new: a Circle started last month with 2 members scores as steady, not stalled. The ones that sink are the ones that have had time and haven't grown.
 
