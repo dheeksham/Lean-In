@@ -1,24 +1,13 @@
 # Find Your Circle
-
 **Live demo:** [add your deployed URL]
 **Repo:** [add your repo URL]
 
----
-
 ## The problem I chose
+Lean In Connect's promise is on the first screen of onboarding: women in Circles are nearly 2x as likely to get promoted or receive a raise.
 
-Lean In Connect's promise is on the first screen of onboarding: women in
-Circles are nearly 2x as likely to get promoted or receive a raise.
+However, that outcome only occurs once a woman is in the *right* Circle, one that matches what she's working on and that is active. The current product makes reaching that state difficult.
 
-But that outcome is conditional. It only happens once a woman is in the
-*right* Circle — one that matches what she's working on and that actually
-meets. And the current product makes reaching that state surprisingly hard.
-
-Step 2 of member onboarding is titled "Find a Circle to join." It explains
-what Circles are, tells her to browse the directory and filter by topic or
-location, and shows a screenshot of that directory. She can't do anything on
-the screen. The actual finding is deferred to a checklist item she sees
-after onboarding ends.
+Step 2 of member onboarding is titled "Find a Circle to join." It explains what Circles are, tells her to browse the directory and filter by topic or location, and shows a screenshot of that directory. The user can't do anything further on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
 
 Meanwhile the directory itself is thousands of Circles across 183 countries,
 many with a single member and no meetings on the calendar, with no signal of
