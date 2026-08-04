@@ -34,7 +34,6 @@ Each Circle is scored against her three answers:
 | Signal | Weight | Why |
 |---|---|---|
 | Goal overlap | +10 each | The strongest predictor of fit |
-| Career stage fit | +6 | Matters, but a stretch group can still work |
 | Momentum | +8 / +3 / −6 | A Circle that hasn't grown can't deliver the outcome |
 | Format match | +5, or +2 for hybrid | Hybrid genuinely satisfies either preference |
 
