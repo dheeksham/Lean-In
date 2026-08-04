@@ -5,10 +5,10 @@
 
 *Stack:* Next.js, TypeScript, Supabase, deployed on Vercel.
 
-### The problem I chose
-Lean In Connect's promise is on the first screen of onboarding: women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one that matches what she's working on and that is active. The current product makes reaching that state difficult. Step 2 of member onboarding is titled "Find a Circle to join." It explains what Circles are, tells her to browse the directory and filter by topic or location, and shows a screenshot of that directory. The user can't do anything further on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
+### Chosen Problem
+Lean In Connect's promise is on the 1st onboarding screen: Women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one which matches what she's working on and that is active. The current product makes reaching that state very difficult. Step 2 of member onboarding "Find a Circle to join" explains what Circles are, tells the user to browse the directory, filter by topic or location, and shows a screenshot of that directory. The user is not able to take any further action on this screen and the actual finding is deferred to a checklist item seen after onboarding ends.
 
-Meanwhile the directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit her goals. For example, the screenshot used to illustrate step 2 leads with a Circle that has one member. So the platform delivers its value proposition everywhere except the step that unlocks it. That's the gap I built for.
+Meanwhile, the directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit the user's goals. So the platform delivers its value proposition everywhere except the step that unlocks it - this is the gap that I built for.
 
 ### What I built
 1. **Intake** questions: What the onboardee is working on, where they are in their career, and how they would like to meet. Career stage is pre-filled from the job title her profile already collected in step 1. 
@@ -18,9 +18,9 @@ The user finishes onboarding already matched, with a request in flight, instead 
 
 ### Where I focused, and why
 I went deeper on the front end and on the product thinking behind the matching, because that's where my strengths lie and where I think the
-biggest gap in the current experience is. The back end is real but deliberately small and enough to prove the architecture is sound.
+biggest gap in the current experience is. The back end is intentionally small but sufficient to prove the architecture is sound.
 
-### What's real vs. mocked
+### What's Real vs. Mocked
 **Real:**
 Circles live in a Postgres table (Supabase), not in the bundle. Matching runs server-side. The client sends their answers and receives a ranked list; it never sees the scoring weights. Join requests persist - Refresh the page and their pending requests are still there.
 
