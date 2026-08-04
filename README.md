@@ -6,9 +6,7 @@
 *Stack:* Next.js, TypeScript, Supabase, deployed on Vercel.
 
 ### Chosen Problem
-Lean In Connect's promise is on the 1st onboarding screen: Women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one which matches what she's working on and is actually active. While I was signing up as a new member, I noticed that Step 2 is called "Find a Circle to Join," but it only explains what Circles are and shows a screenshot of the directory. The screen is not actionable and the actual finding gets deferred to a checklist item after onboarding ends.
-
-Meanwhile, the directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit the user's goals. The platform delivers its value proposition everywhere except the step that unlocks it so this is the gap that I built for.
+Lean In Connect's promise is on the 1st onboarding screen: Women in Circles are nearly 2x as likely to get promoted or receive a raise. However, that outcome only occurs once a woman is in the *right* Circle, one which matches what she's working on and is actually active. While I was signing up as a new member, I noticed that Step 2 is called "Find a Circle to Join," but it only explains what Circles are and shows a screenshot of the directory. The screen is not actionable and the actual finding gets deferred to a checklist item after onboarding ends. The directory itself is thousands of Circles across 183 countries, many with a single member, not actively meeting, and no signal of which ones fit the user's goals. The platform delivers its value proposition everywhere except the step that unlocks it so this is the gap that I built for.
 
 ### What I built
 1. **Intake** questions: What the onboardee is working on, where they are in their career, and how they would like to meet. Career stage is pre-filled from the job title her profile already collected in step 1. 
